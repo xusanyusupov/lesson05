@@ -83,3 +83,4 @@ if (page === "users") {
 }else if(page === 'comments') {
     fetchData(`${url}/comments?_limit=30`, 'comments', renderComments)
 }
+
